@@ -26,7 +26,6 @@ function addGifToPage(nestedData){
     const randomGif = Math.floor(Math.random() * 24)
 
     const src = nestedData.data[randomGif].images.original.url
-    returned = src
       
 
          const newGif = document.createElement("img")
